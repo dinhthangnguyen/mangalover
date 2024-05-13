@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34031E2B6A045579A61EB54A /* Pods_MangaLover_MangaLoverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB53D97546F574DEBAD0084 /* Pods_MangaLover_MangaLoverUITests.framework */; };
+		82DD00F22BF14EF300FC7B95 /* MangaLoverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD00F12BF14EF300FC7B95 /* MangaLoverApp.swift */; };
+		82DD00F42BF14EF300FC7B95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD00F32BF14EF300FC7B95 /* ContentView.swift */; };
+		82DD00F62BF14EF400FC7B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DD00F52BF14EF400FC7B95 /* Assets.xcassets */; };
+		82DD00F92BF14EF400FC7B95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DD00F82BF14EF400FC7B95 /* Preview Assets.xcassets */; };
+		82DD01032BF14EF500FC7B95 /* MangaLoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD01022BF14EF500FC7B95 /* MangaLoverTests.swift */; };
+		82DD010D2BF14EF500FC7B95 /* MangaLoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD010C2BF14EF500FC7B95 /* MangaLoverUITests.swift */; };
+		82DD010F2BF14EF500FC7B95 /* MangaLoverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD010E2BF14EF500FC7B95 /* MangaLoverUITestsLaunchTests.swift */; };
+		8B5BBCB2461FA657E13A746A /* Pods_MangaLover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0670BED0D05759D546815178 /* Pods_MangaLover.framework */; };
+		C30592E1963789C8493C3ED9 /* Pods_MangaLoverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEB41F4D54ECE42B58AE1D0 /* Pods_MangaLoverTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82DD00FF2BF14EF500FC7B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82DD00E62BF14EF300FC7B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82DD00ED2BF14EF300FC7B95;
+			remoteInfo = MangaLover;
+		};
+		82DD01092BF14EF500FC7B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82DD00E62BF14EF300FC7B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82DD00ED2BF14EF300FC7B95;
+			remoteInfo = MangaLover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0670BED0D05759D546815178 /* Pods_MangaLover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaLover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3D47B2185FA31CECEFD112 /* Pods-MangaLover-MangaLoverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaLover-MangaLoverUITests.debug.xcconfig"; path = "Target Support Files/Pods-MangaLover-MangaLoverUITests/Pods-MangaLover-MangaLoverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42F0BFACD112166E65C50FB5 /* Pods-MangaLover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaLover.debug.xcconfig"; path = "Target Support Files/Pods-MangaLover/Pods-MangaLover.debug.xcconfig"; sourceTree = "<group>"; };
+		6FB53D97546F574DEBAD0084 /* Pods_MangaLover_MangaLoverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaLover_MangaLoverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD00EE2BF14EF300FC7B95 /* MangaLover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaLover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD00F12BF14EF300FC7B95 /* MangaLoverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaLoverApp.swift; sourceTree = "<group>"; };
+		82DD00F32BF14EF300FC7B95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82DD00F52BF14EF400FC7B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82DD00F82BF14EF400FC7B95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82DD00FE2BF14EF500FC7B95 /* MangaLoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangaLoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD01022BF14EF500FC7B95 /* MangaLoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaLoverTests.swift; sourceTree = "<group>"; };
+		82DD01082BF14EF500FC7B95 /* MangaLoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangaLoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD010C2BF14EF500FC7B95 /* MangaLoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaLoverUITests.swift; sourceTree = "<group>"; };
+		82DD010E2BF14EF500FC7B95 /* MangaLoverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaLoverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A82481D475DDD7F2406E537 /* Pods-MangaLover-MangaLoverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaLover-MangaLoverUITests.release.xcconfig"; path = "Target Support Files/Pods-MangaLover-MangaLoverUITests/Pods-MangaLover-MangaLoverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C7190107D06B5A45CFD97225 /* Pods-MangaLoverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaLoverTests.debug.xcconfig"; path = "Target Support Files/Pods-MangaLoverTests/Pods-MangaLoverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC2326D7F736D2CAFA2D56C6 /* Pods-MangaLoverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaLoverTests.release.xcconfig"; path = "Target Support Files/Pods-MangaLoverTests/Pods-MangaLoverTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4C44A0BBAD3E64F5108C3E9 /* Pods-MangaLover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaLover.release.xcconfig"; path = "Target Support Files/Pods-MangaLover/Pods-MangaLover.release.xcconfig"; sourceTree = "<group>"; };
+		FFEB41F4D54ECE42B58AE1D0 /* Pods_MangaLoverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaLoverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82DD00EB2BF14EF300FC7B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5BBCB2461FA657E13A746A /* Pods_MangaLover.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD00FB2BF14EF500FC7B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30592E1963789C8493C3ED9 /* Pods_MangaLoverTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD01052BF14EF500FC7B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34031E2B6A045579A61EB54A /* Pods_MangaLover_MangaLoverUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CBACC3B33BB6EB08794BC35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42F0BFACD112166E65C50FB5 /* Pods-MangaLover.debug.xcconfig */,
+				E4C44A0BBAD3E64F5108C3E9 /* Pods-MangaLover.release.xcconfig */,
+				3F3D47B2185FA31CECEFD112 /* Pods-MangaLover-MangaLoverUITests.debug.xcconfig */,
+				9A82481D475DDD7F2406E537 /* Pods-MangaLover-MangaLoverUITests.release.xcconfig */,
+				C7190107D06B5A45CFD97225 /* Pods-MangaLoverTests.debug.xcconfig */,
+				DC2326D7F736D2CAFA2D56C6 /* Pods-MangaLoverTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		82DD00E52BF14EF300FC7B95 = {
+			isa = PBXGroup;
+			children = (
+				82DD00F02BF14EF300FC7B95 /* MangaLover */,
+				82DD01012BF14EF500FC7B95 /* MangaLoverTests */,
+				82DD010B2BF14EF500FC7B95 /* MangaLoverUITests */,
+				82DD00EF2BF14EF300FC7B95 /* Products */,
+				5CBACC3B33BB6EB08794BC35 /* Pods */,
+				E2DDD8CA8ED24A25928D9C12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82DD00EF2BF14EF300FC7B95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82DD00EE2BF14EF300FC7B95 /* MangaLover.app */,
+				82DD00FE2BF14EF500FC7B95 /* MangaLoverTests.xctest */,
+				82DD01082BF14EF500FC7B95 /* MangaLoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82DD00F02BF14EF300FC7B95 /* MangaLover */ = {
+			isa = PBXGroup;
+			children = (
+				82DD00F12BF14EF300FC7B95 /* MangaLoverApp.swift */,
+				82DD00F32BF14EF300FC7B95 /* ContentView.swift */,
+				82DD00F52BF14EF400FC7B95 /* Assets.xcassets */,
+				82DD00F72BF14EF400FC7B95 /* Preview Content */,
+			);
+			path = MangaLover;
+			sourceTree = "<group>";
+		};
+		82DD00F72BF14EF400FC7B95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82DD00F82BF14EF400FC7B95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82DD01012BF14EF500FC7B95 /* MangaLoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				82DD01022BF14EF500FC7B95 /* MangaLoverTests.swift */,
+			);
+			path = MangaLoverTests;
+			sourceTree = "<group>";
+		};
+		82DD010B2BF14EF500FC7B95 /* MangaLoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82DD010C2BF14EF500FC7B95 /* MangaLoverUITests.swift */,
+				82DD010E2BF14EF500FC7B95 /* MangaLoverUITestsLaunchTests.swift */,
+			);
+			path = MangaLoverUITests;
+			sourceTree = "<group>";
+		};
+		E2DDD8CA8ED24A25928D9C12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0670BED0D05759D546815178 /* Pods_MangaLover.framework */,
+				6FB53D97546F574DEBAD0084 /* Pods_MangaLover_MangaLoverUITests.framework */,
+				FFEB41F4D54ECE42B58AE1D0 /* Pods_MangaLoverTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82DD00ED2BF14EF300FC7B95 /* MangaLover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DD01122BF14EF500FC7B95 /* Build configuration list for PBXNativeTarget "MangaLover" */;
+			buildPhases = (
+				BE0E1F70BC46CC83CD431C19 /* [CP] Check Pods Manifest.lock */,
+				82DD00EA2BF14EF300FC7B95 /* Sources */,
+				82DD00EB2BF14EF300FC7B95 /* Frameworks */,
+				82DD00EC2BF14EF300FC7B95 /* Resources */,
+				57F64B3DF73FA7FECDB59B38 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MangaLover;
+			productName = MangaLover;
+			productReference = 82DD00EE2BF14EF300FC7B95 /* MangaLover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82DD00FD2BF14EF500FC7B95 /* MangaLoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DD01152BF14EF500FC7B95 /* Build configuration list for PBXNativeTarget "MangaLoverTests" */;
+			buildPhases = (
+				A1C82CA88DCADC41715E0C45 /* [CP] Check Pods Manifest.lock */,
+				82DD00FA2BF14EF500FC7B95 /* Sources */,
+				82DD00FB2BF14EF500FC7B95 /* Frameworks */,
+				82DD00FC2BF14EF500FC7B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82DD01002BF14EF500FC7B95 /* PBXTargetDependency */,
+			);
+			name = MangaLoverTests;
+			productName = MangaLoverTests;
+			productReference = 82DD00FE2BF14EF500FC7B95 /* MangaLoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82DD01072BF14EF500FC7B95 /* MangaLoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DD01182BF14EF500FC7B95 /* Build configuration list for PBXNativeTarget "MangaLoverUITests" */;
+			buildPhases = (
+				414840252CA2354D0996E557 /* [CP] Check Pods Manifest.lock */,
+				82DD01042BF14EF500FC7B95 /* Sources */,
+				82DD01052BF14EF500FC7B95 /* Frameworks */,
+				82DD01062BF14EF500FC7B95 /* Resources */,
+				89F2BF205D69EA5012B91AFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82DD010A2BF14EF500FC7B95 /* PBXTargetDependency */,
+			);
+			name = MangaLoverUITests;
+			productName = MangaLoverUITests;
+			productReference = 82DD01082BF14EF500FC7B95 /* MangaLoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82DD00E62BF14EF300FC7B95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					82DD00ED2BF14EF300FC7B95 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					82DD00FD2BF14EF500FC7B95 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 82DD00ED2BF14EF300FC7B95;
+					};
+					82DD01072BF14EF500FC7B95 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 82DD00ED2BF14EF300FC7B95;
+					};
+				};
+			};
+			buildConfigurationList = 82DD00E92BF14EF300FC7B95 /* Build configuration list for PBXProject "MangaLover" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82DD00E52BF14EF300FC7B95;
+			productRefGroup = 82DD00EF2BF14EF300FC7B95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82DD00ED2BF14EF300FC7B95 /* MangaLover */,
+				82DD00FD2BF14EF500FC7B95 /* MangaLoverTests */,
+				82DD01072BF14EF500FC7B95 /* MangaLoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82DD00EC2BF14EF300FC7B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD00F92BF14EF400FC7B95 /* Preview Assets.xcassets in Resources */,
+				82DD00F62BF14EF400FC7B95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD00FC2BF14EF500FC7B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD01062BF14EF500FC7B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		414840252CA2354D0996E557 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangaLover-MangaLoverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57F64B3DF73FA7FECDB59B38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangaLover/Pods-MangaLover-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangaLover/Pods-MangaLover-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MangaLover/Pods-MangaLover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F2BF205D69EA5012B91AFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangaLover-MangaLoverUITests/Pods-MangaLover-MangaLoverUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangaLover-MangaLoverUITests/Pods-MangaLover-MangaLoverUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MangaLover-MangaLoverUITests/Pods-MangaLover-MangaLoverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1C82CA88DCADC41715E0C45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangaLoverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE0E1F70BC46CC83CD431C19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangaLover-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82DD00EA2BF14EF300FC7B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD00F42BF14EF300FC7B95 /* ContentView.swift in Sources */,
+				82DD00F22BF14EF300FC7B95 /* MangaLoverApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD00FA2BF14EF500FC7B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD01032BF14EF500FC7B95 /* MangaLoverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD01042BF14EF500FC7B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD010F2BF14EF500FC7B95 /* MangaLoverUITestsLaunchTests.swift in Sources */,
+				82DD010D2BF14EF500FC7B95 /* MangaLoverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82DD01002BF14EF500FC7B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82DD00ED2BF14EF300FC7B95 /* MangaLover */;
+			targetProxy = 82DD00FF2BF14EF500FC7B95 /* PBXContainerItemProxy */;
+		};
+		82DD010A2BF14EF500FC7B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82DD00ED2BF14EF300FC7B95 /* MangaLover */;
+			targetProxy = 82DD01092BF14EF500FC7B95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		82DD01102BF14EF500FC7B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82DD01112BF14EF500FC7B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82DD01132BF14EF500FC7B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F0BFACD112166E65C50FB5 /* Pods-MangaLover.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MangaLover/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.hello.MangaLover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82DD01142BF14EF500FC7B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C44A0BBAD3E64F5108C3E9 /* Pods-MangaLover.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MangaLover/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.hello.MangaLover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82DD01162BF14EF500FC7B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7190107D06B5A45CFD97225 /* Pods-MangaLoverTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.hello.MangaLoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MangaLover.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MangaLover";
+			};
+			name = Debug;
+		};
+		82DD01172BF14EF500FC7B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2326D7F736D2CAFA2D56C6 /* Pods-MangaLoverTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.hello.MangaLoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MangaLover.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MangaLover";
+			};
+			name = Release;
+		};
+		82DD01192BF14EF500FC7B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3D47B2185FA31CECEFD112 /* Pods-MangaLover-MangaLoverUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.hello.MangaLoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MangaLover;
+			};
+			name = Debug;
+		};
+		82DD011A2BF14EF500FC7B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A82481D475DDD7F2406E537 /* Pods-MangaLover-MangaLoverUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.hello.MangaLoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MangaLover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82DD00E92BF14EF300FC7B95 /* Build configuration list for PBXProject "MangaLover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD01102BF14EF500FC7B95 /* Debug */,
+				82DD01112BF14EF500FC7B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DD01122BF14EF500FC7B95 /* Build configuration list for PBXNativeTarget "MangaLover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD01132BF14EF500FC7B95 /* Debug */,
+				82DD01142BF14EF500FC7B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DD01152BF14EF500FC7B95 /* Build configuration list for PBXNativeTarget "MangaLoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD01162BF14EF500FC7B95 /* Debug */,
+				82DD01172BF14EF500FC7B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DD01182BF14EF500FC7B95 /* Build configuration list for PBXNativeTarget "MangaLoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD01192BF14EF500FC7B95 /* Debug */,
+				82DD011A2BF14EF500FC7B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82DD00E62BF14EF300FC7B95 /* Project object */;
+}

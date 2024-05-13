@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (5.8.1)
+  - CoreModule (0.1.0):
+    - Alamofire (~> 5.8.1)
+  - HomeModule (0.1.0):
+    - Alamofire (~> 5.8.1)
+    - CoreModule
+
+DEPENDENCIES:
+  - Alamofire (~> 5.8.1)
+  - CoreModule (from `./CoreModule`)
+  - HomeModule (from `./HomeModule`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  CoreModule:
+    :path: "./CoreModule"
+  HomeModule:
+    :path: "./HomeModule"
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  CoreModule: 24d3791994c819c461fb5cf4207e14fcfb3b1108
+  HomeModule: 983d8e8fdd6fc4aa878e2e815dc1aa7a28407422
+
+PODFILE CHECKSUM: f60b89b87bd619bdb63dd6b613366f8fcce86c05
+
+COCOAPODS: 1.13.0
